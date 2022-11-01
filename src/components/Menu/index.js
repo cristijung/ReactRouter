@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom';
+//import { Link } from 'react-router-dom';
 import styles from './Menu.module.css';
 
 export default function Menu() {
@@ -6,7 +6,7 @@ export default function Menu() {
         <header>
             <nav className={styles.navegacao}>
                 <a href='/' className={`
-                ${styles.navegacao}
+                ${styles.link}
                 ${styles.linkSublinhado}
                 `}>
                     Início
