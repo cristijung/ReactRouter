@@ -5,12 +5,12 @@ import SobreMim from "./pages/SobreMim";
 //import PaginaPadrao from "./components/PaginaPadrao";
 
 
-function App() {
+function AppRoutes() {
   return (
     <>
-    <Menu />
+    
     <BrowserRouter>
-
+        <Menu />
       <Routes>      
         <Route path="/" element={<Inicio />} />
         <Route path="/SobreMim" element={<SobreMim />} />
@@ -21,4 +21,4 @@ function App() {
   );
 }
 
-export default App;
+export default AppRoutes;

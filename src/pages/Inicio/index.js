@@ -1,10 +1,14 @@
+import Banner from "components/Banner"; //configuração de importação absoluta do React
+import styles from './Inicio.module.css';
+
 
 function Inicio () {
     return(
         <>
-
-        <h1> Este é o início </h1>
-
+        <main>
+            <Banner />  
+                     
+        </main>
         </>
     );
 }
