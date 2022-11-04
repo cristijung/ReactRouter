@@ -12,9 +12,6 @@ export default function Menu() {
                <MenuLink to="/SobreMim">
                     Sobre Mim
                </MenuLink>
-               <MenuLink to="/Opiniao">
-                    Deixe sua Opinião
-               </MenuLink>
              
             </nav>
         </header>
